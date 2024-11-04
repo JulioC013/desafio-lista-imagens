@@ -1,0 +1,43 @@
+main{
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.pinturas{
+    
+    display: flex;
+    gap: 20px ;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.pinturas .pintura{
+    width: 335px;
+    height: 431.03px;
+    position: relative;
+}
+
+.pinturas .pintura img{
+    width: 100%;
+}
+
+.pinturas .pintura .info{
+    position: absolute;
+    bottom: 43.03px;
+    left: 26px;
+    color: #ffffff;
+
+}
+
+.pinturas .pintura .info .nome-pintura{
+    font-size: 30px;
+    font-weight: 700;
+    padding-bottom: 5px;
+}
+
+.pinturas .pintura .info .artista{
+    font-size: 17px;
+    font-weight: 300;
+}
